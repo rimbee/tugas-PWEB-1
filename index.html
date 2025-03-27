@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto Rimbi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Galeri Foto Sigma Boi</h1>
+        <p>Ucapkan MasyaAlah agar saia tidak terkena A'in. MaasyaAllah brada</p>
+    </header>
+    <main>
+        <div class="gallery">
+            <img src="13cb1c9b-df58-4d5b-8b53-7513926a2f4b.jpg" alt="Gambar 1" onclick="openModal(this.src)">
+            <img src="20240309_120306.jpg" alt="Gambar 2" onclick="openModal(this.src)">
+            <img src="DSC_0447.JPG" alt="Gambar 3" onclick="openModal(this.src)">
+            <img src="IMG_0462.JPG" alt="Gambar 4" onclick="openModal(this.src)">
+            <img src="20240504_103738.jpg" alt="Gambar 5" onclick="openModal(this.src)">
+            <img src="DSC_0642.JPG" alt="Gambar 6" onclick="openModal(this.src)">
+            <img src="Subheading (3).png" alt="Gambar 7" onclick="openModal(this.src)">
+        </div>
+        <section class="info">
+            <h2>Cerita di Galeri ini</h2>
+            <p>Galeri ini menampilkan berbagai foto sigma moment Rimbi Siara. Setiap gambar memiliki cerita dan makna tersendiri. Ada banyak yang di lalui sebelum akhirnya foto ini muncul.</p>
+            <p>Silakan klik gambar untuk melihatnya dalam ukuran yang lebih besar. Maaf bila website ini kurang kreatif. insert stiker "wajar manusia bukan nabi woy". Akhirul kalam, Wassalamualaikum Wr.Wb</p>
+        </section>
+    </main>
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
